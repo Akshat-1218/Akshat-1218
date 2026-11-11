@@ -1,7 +1,4 @@
-import os, zipfile
-base="/mnt/data/akshat-profile-text-style"
-os.makedirs(base,exist_ok=True)
-readme = r'''<h1 align="center">👋 Hey, I'm Akshat Pandey</h1>
+<h1 align="center">👋 Hey, I'm Akshat Pandey</h1>
 
 <p align="center">
   <strong>Computer Science & Engineering Student | Aspiring Software Developer</strong><br>
@@ -12,7 +9,6 @@ readme = r'''<h1 align="center">👋 Hey, I'm Akshat Pandey</h1>
 
 ## 🧑‍💻 whoami
 
-```java
 public class AkshatPandey {
 
     String name = "Akshat Pandey";
@@ -38,7 +34,6 @@ public class AkshatPandey {
     String philosophy =
         "Learn → Build → Debug → Improve → Repeat";
 }
-```
 
 ## ⚡ About Me
 
@@ -121,51 +116,6 @@ Currently practising problem-solving with **Java** and focusing on understanding
 - Greedy Algorithms
 - Dynamic Programming
 
-### 🔁 Problem-Solving Cycle
-
-```text
-        🧩 PROBLEM
-            |
-            v
-       🧠 UNDERSTAND
-            |
-            v
-        💡 APPROACH
-            |
-            v
-        ☕ CODE IN JAVA
-            |
-            v
-         ⚡ OPTIMIZE
-            |
-            v
-       📊 ANALYZE COMPLEXITY
-            |
-            v
-          🚀 SUBMIT
-            |
-            └──────────> 🔁 REPEAT
-```
-
-## 📚 What I'm Currently Working On
-
-```text
-☕ JAVA & DSA
-   └── Problem-solving patterns and coding practice
-
-⚛️ WEB DEVELOPMENT
-   └── React, JavaScript and full-stack applications
-
-🗄️ DATABASES
-   └── SQL, PostgreSQL, MySQL and database fundamentals
-
-🏗️ BACKEND
-   └── Node.js, Express.js and API development
-
-🧠 COMPUTER SCIENCE
-   └── Core concepts and interview preparation
-```
-
 ## 📊 GitHub Activity
 
 <p align="center">
@@ -225,21 +175,3 @@ Understand more. Build better. Repeat.
   <code>while(alive) { learn(); build(); solve(); repeat(); }</code><br><br>
   ⭐ Thanks for visiting my profile!
 </p>
-'''
-path=os.path.join(base,"README.md")
-with open(path,"w",encoding="utf-8") as f:f.write(readme)
-instructions="""HOW TO USE
-1. Open your profile repository: https://github.com/Akshat-1218/Akshat-1218
-2. Open README.md and choose Edit (pencil icon).
-3. Replace its contents with the README.md in this package.
-4. Commit changes.
-
-This version intentionally removes the illustrated face cards and uses a text/code-focused layout inspired by the sample you shared.
-Check the MedCart feature list and stack against the current implementation before publishing. Remove or correct any item that is not implemented.
-"""
-with open(os.path.join(base,"UPLOAD-INSTRUCTIONS.txt"),"w",encoding="utf-8") as f:f.write(instructions)
-zip_path="/mnt/data/Akshat-GitHub-Profile-Text-Style.zip"
-with zipfile.ZipFile(zip_path,"w",zipfile.ZIP_DEFLATED) as z:
-    for fn in os.listdir(base):
-        z.write(os.path.join(base,fn),fn)
-print(path, zip_path)
