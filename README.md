@@ -20,11 +20,6 @@
 | [Snake-Game](https://github.com/Akshat-1218/Snake-Game) | Classic Snake game. | JavaScript |
 | [landing-page-gsap](https://github.com/Akshat-1218/landing-page-gsap) | Animated landing page exploring GSAP. | HTML |
 
-<div align="center">
-<img src="./id-dashboard.svg?v=1" width="100%" alt="Developer ID card"/>
-<img src="./connect.svg?v=1" width="100%" alt="Connect with me"/>
-</div>
-
 ### Find me here
 - GitHub: [@Akshat-1218](https://github.com/Akshat-1218)
 
