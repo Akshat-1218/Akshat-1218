@@ -1,11 +1,11 @@
 <!-- Profile README for Akshat-1218 -->
 <div align="center">
 
-<img src="./assets/hero.svg?v=1" width="100%" alt="Akshat Pandey — aspiring software developer"/>
+<img src="./hero.svg?v=1" width="100%" alt="Akshat Pandey — aspiring software developer"/>
 
-<img src="./assets/about-life.svg?v=1" width="100%" alt="About me"/>
+<img src="./about-life.svg?v=1" width="100%" alt="About me"/>
 
-<img src="./assets/stack.svg?v=1" width="100%" alt="Technology stack"/>
+<img src="./stack.svg?v=1" width="100%" alt="Technology stack"/>
 
 </div>
 
@@ -21,8 +21,8 @@
 | [landing-page-gsap](https://github.com/Akshat-1218/landing-page-gsap) | Animated landing page exploring GSAP. | HTML |
 
 <div align="center">
-<img src="./assets/id-dashboard.svg?v=1" width="100%" alt="Developer ID card"/>
-<img src="./assets/connect.svg?v=1" width="100%" alt="Connect with me"/>
+<img src="./id-dashboard.svg?v=1" width="100%" alt="Developer ID card"/>
+<img src="./connect.svg?v=1" width="100%" alt="Connect with me"/>
 </div>
 
 ### Find me here
