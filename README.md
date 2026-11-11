@@ -1,28 +1,245 @@
-<!-- Profile README for Akshat-1218 -->
-<div align="center">
+import os, zipfile
+base="/mnt/data/akshat-profile-text-style"
+os.makedirs(base,exist_ok=True)
+readme = r'''<h1 align="center">👋 Hey, I'm Akshat Pandey</h1>
 
-<img src="./hero.svg?v=1" width="100%" alt="Akshat Pandey — aspiring software developer"/>
-
-<img src="./about-life.svg?v=1" width="100%" alt="About me"/>
-
-<img src="./stack.svg?v=1" width="100%" alt="Technology stack"/>
-
-</div>
-
-## Featured Projects
-
-| Project | Description | Tech |
-|---|---|---|
-| [Leetcode-solutions](https://github.com/Akshat-1218/Leetcode-solutions) | A collection of solutions to coding interview problems. | Java |
-| [Bubble-Game](https://github.com/Akshat-1218/Bubble-Game) | Browser-based bubble game. | CSS |
-| [Simon-Says-Game](https://github.com/Akshat-1218/Simon-Says-Game) | A memory game inspired by Simon Says. | JavaScript |
-| [Amazon-UI-clone](https://github.com/Akshat-1218/Amazon-UI-clone) | Front-end UI recreation inspired by Amazon. | HTML |
-| [Snake-Game](https://github.com/Akshat-1218/Snake-Game) | Classic Snake game. | JavaScript |
-| [landing-page-gsap](https://github.com/Akshat-1218/landing-page-gsap) | Animated landing page exploring GSAP. | HTML |
-
-### Find me here
-- GitHub: [@Akshat-1218](https://github.com/Akshat-1218)
+<p align="center">
+  <strong>Computer Science & Engineering Student | Aspiring Software Developer</strong><br>
+  <a href="https://github.com/Akshat-1218">GitHub</a>
+</p>
 
 ---
 
-<p align="center"><i>Building consistently. Learning continuously.</i></p>
+## 🧑‍💻 whoami
+
+```java
+public class AkshatPandey {
+
+    String name = "Akshat Pandey";
+    String education = "B.Tech Computer Science & Engineering";
+    String role = "CSE Student";
+
+    String[] interests = {
+        "Full-Stack Development",
+        "Java",
+        "Data Structures & Algorithms",
+        "Backend Development",
+        "Software Engineering"
+    };
+
+    String[] currentlyLearning = {
+        "MERN Stack",
+        "DSA with Java",
+        "SQL",
+        "Backend Development",
+        "Core Computer Science"
+    };
+
+    String philosophy =
+        "Learn → Build → Debug → Improve → Repeat";
+}
+```
+
+## ⚡ About Me
+
+I learn by building projects, practising problem-solving, and strengthening my software engineering fundamentals.
+
+- 💻 Interested in building full-stack web applications.
+- ☕ Practising Data Structures & Algorithms using Java.
+- ⚛️ Exploring React and modern JavaScript development.
+- 🗄️ Learning database concepts and SQL.
+- 🔧 Improving backend development and API-building skills.
+- 📚 Preparing for software engineering opportunities.
+- 🏏 Outside tech, I enjoy playing cricket.
+
+## 🛠️ Tech Arsenal
+
+**Languages**
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
+
+**Frontend**
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
+</p>
+
+**Backend & Database**
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
+
+**Tools & Platforms**
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+</p>
+
+## 🚀 Featured Project
+
+### 🩺 [MedCart — Pharmacy Management System](https://github.com/Akshat-1218/MedCart-Pharmacy-Management-System)
+
+A full-stack pharmacy management application designed to bring pharmacy-related workflows into one platform.
+
+**⚙️ Tech Stack**
+
+`React.js` · `JavaScript` · `Node.js` · `Express.js` · `MongoDB`
+
+**✨ Project Focus**
+- 💊 Medicine and pharmacy data management
+- 🛒 Pharmacy ordering workflow
+- 👤 User-facing application experience
+- 🔌 Backend APIs and client-server integration
+- 🧩 Full-stack application structure
+
+> Update this section with the exact features currently implemented in the repository before treating it as final project documentation.
+
+## 🧠 DSA Journey
+
+Currently practising problem-solving with **Java** and focusing on understanding patterns rather than memorising solutions.
+
+**Patterns & Topics**
+- Arrays and Strings
+- HashMap and HashSet
+- Two Pointers and Sliding Window
+- Sorting and Binary Search
+- Linked Lists
+- Stack and Queue
+- Trees and Graphs
+- Recursion and Backtracking
+- Greedy Algorithms
+- Dynamic Programming
+
+### 🔁 Problem-Solving Cycle
+
+```text
+        🧩 PROBLEM
+            |
+            v
+       🧠 UNDERSTAND
+            |
+            v
+        💡 APPROACH
+            |
+            v
+        ☕ CODE IN JAVA
+            |
+            v
+         ⚡ OPTIMIZE
+            |
+            v
+       📊 ANALYZE COMPLEXITY
+            |
+            v
+          🚀 SUBMIT
+            |
+            └──────────> 🔁 REPEAT
+```
+
+## 📚 What I'm Currently Working On
+
+```text
+☕ JAVA & DSA
+   └── Problem-solving patterns and coding practice
+
+⚛️ WEB DEVELOPMENT
+   └── React, JavaScript and full-stack applications
+
+🗄️ DATABASES
+   └── SQL, PostgreSQL, MySQL and database fundamentals
+
+🏗️ BACKEND
+   └── Node.js, Express.js and API development
+
+🧠 COMPUTER SCIENCE
+   └── Core concepts and interview preparation
+```
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Akshat-1218&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akshat-1218&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Akshat-1218&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
+
+## 🎯 Goals
+
+- Strengthen DSA and problem-solving skills using Java.
+- Build and improve full-stack applications.
+- Develop stronger backend and database fundamentals.
+- Improve understanding of software design and system fundamentals.
+- Contribute to collaborative and open-source projects.
+- Keep learning, building, and improving.
+
+## 🧑‍💻 My Coding Philosophy
+
+> Don't just write code. Understand it.  
+> Don't just solve problems. Understand the pattern.  
+> Don't just build projects. Understand the system.  
+> Don't chase perfection. Keep improving.
+
+## 🌐 Connect With Me
+
+<p>
+  <a href="https://github.com/Akshat-1218">
+    <img src="https://img.shields.io/badge/GitHub-Akshat--1218-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+## 💻 Terminal
+
+```bash
+$ whoami
+Akshat Pandey
+
+$ role
+Computer Science & Engineering Student
+
+$ focus
+Java + DSA + Full-Stack Development
+
+$ status
+Learning. Building. Improving.
+
+$ currentMission
+Understand more. Build better. Repeat.
+```
+
+<p align="center">
+  <strong>⚡ Keep Building</strong><br><br>
+  <code>while(alive) { learn(); build(); solve(); repeat(); }</code><br><br>
+  ⭐ Thanks for visiting my profile!
+</p>
+'''
+path=os.path.join(base,"README.md")
+with open(path,"w",encoding="utf-8") as f:f.write(readme)
+instructions="""HOW TO USE
+1. Open your profile repository: https://github.com/Akshat-1218/Akshat-1218
+2. Open README.md and choose Edit (pencil icon).
+3. Replace its contents with the README.md in this package.
+4. Commit changes.
+
+This version intentionally removes the illustrated face cards and uses a text/code-focused layout inspired by the sample you shared.
+Check the MedCart feature list and stack against the current implementation before publishing. Remove or correct any item that is not implemented.
+"""
+with open(os.path.join(base,"UPLOAD-INSTRUCTIONS.txt"),"w",encoding="utf-8") as f:f.write(instructions)
+zip_path="/mnt/data/Akshat-GitHub-Profile-Text-Style.zip"
+with zipfile.ZipFile(zip_path,"w",zipfile.ZIP_DEFLATED) as z:
+    for fn in os.listdir(base):
+        z.write(os.path.join(base,fn),fn)
+print(path, zip_path)
