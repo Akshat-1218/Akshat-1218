@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="About Akshat">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b16"/><stop offset="1" stop-color="#101a2d"/></linearGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#247bff"/><stop offset="1" stop-color="#ff354f"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1000" height="320" rx="24" fill="url(#bg)"/>
+<rect x="1" y="1" width="998" height="318" rx="23" fill="none" stroke="url(#line)" stroke-width="2"/>
+
+<text x="48" y="58" fill="#247bff" font-family="monospace" font-size="16" letter-spacing="3">01 / ABOUT ME</text>
+<text x="48" y="112" fill="#f5f7ff" font-family="Arial" font-size="34" font-weight="700">Curious by nature. Builder by choice.</text>
+<text x="50" y="158" fill="#c2cce0" font-family="Arial" font-size="19">I'm a Computer Science student focused on strengthening</text>
+<text x="50" y="190" fill="#c2cce0" font-family="Arial" font-size="19">problem-solving, software development and practical skills.</text>
+<text x="50" y="246" fill="#ff5267" font-family="monospace" font-size="16">INTERESTS</text>
+<text x="50" y="278" fill="#f5f7ff" font-family="Arial" font-size="18">DSA • Full-stack development • AI • Cricket</text>
+
+</svg>
